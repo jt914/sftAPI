@@ -21,7 +21,7 @@ public class PlantIdService {
         headers.set("Api-Key", API_KEY);
 
         JSONObject data = new JSONObject();
-        data.put("organs", new JSONArray().put("leaf").put("flower").put("fruit").put("bark").put("habit"));
+        data.put("organsss", new JSONArray().put("leaf").put("flower").put("fruit").put("bark").put("habit"));
         data.put("images", new JSONArray().put(imageBase64));
         data.put("modifiers", new JSONArray().put("crops_fast").put("similar_images"));
         data.put("plant_language", "en");
